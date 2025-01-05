@@ -570,7 +570,7 @@ button {
 }
 .team-icons-list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   gap: 24px;
 }
@@ -607,7 +607,7 @@ button {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 72px;
@@ -617,12 +617,20 @@ button {
   .team-list {
     column-gap: 24px;
     row-gap: 64px;
+    flex-direction: row;
+  }
+  .team-icons-list {
+    flex-direction: row;
   }
 }
 
 @media screen and (min-width: 1158px) {
   .team-item {
     width: calc((100% - 72px) / 4);
+    flex-direction: row;
+  }
+  .team-icons-list {
+    flex-direction: row;
   }
 }
 /* team */
