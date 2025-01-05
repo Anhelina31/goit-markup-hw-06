@@ -21,6 +21,9 @@ h6,
 p {
   margin: 0;
 }
+button {
+  cursor: pointer;
+}
 
 a {
   text-decoration: none;
@@ -178,4 +181,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
+}
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
