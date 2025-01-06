@@ -131,7 +131,7 @@ button {
   .nav-link.current {
     position: relative;
   }
-  .nav-link.nav-link.current::after {
+  .nav-link.current::after {
     content: "";
     position: absolute;
     left: 0;
@@ -516,9 +516,7 @@ button {
     width: calc((100% - 72px) / 4);
   }
 }
-.advantages-icons-svg {
-  margin: 24px 100px;
-}
+
 /* advantages */
 /* team */
 .team {
@@ -545,8 +543,6 @@ button {
   color: #2e2f42;
   padding-top: 120px;
   margin-bottom: 72px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .team-name {
   font-weight: 500;
